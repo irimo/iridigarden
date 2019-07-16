@@ -6,7 +6,7 @@
 - irimo's free font distribution website.
 - written in static html.
 - いりもの作成フォント展示サイトです。
-- static css です
+- static html です
 
 ## copyright
 - according to free font, use free. But don't change the owner of the fonts^^;
