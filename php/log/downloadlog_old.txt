@@ -1,0 +1,17 @@
+masaru,0,0,9246
+dakki,0,0,1824
+ichigo,1,0,1759
+yubi,0,0,1160
+cho,0,0,4145
+death,0,1,17003
+moya,0,0,2026
+maro,0,0,1613
+fugen,0,1,2345
+c_pieces,0,1,2749
+haro,0,0,1136
+impact_m,0,0,1992
+eli,0,0,1826
+fujiru,0,0,4511
+d_pieces,0,0,1878
+pumpkin,0,0,753
+aboutaxmas,0,0,116
