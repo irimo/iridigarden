@@ -5,26 +5,29 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf8">
 <script src="./js/jquery-1.9.1.min.js"></script>
 <title>IRIDIGARDEN</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="style.css#202609181909" rel="stylesheet" type="text/css">
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <script>
-  const heroText = document.querySelector(".hero__text");
+  document.addEventListener("DOMContentLoaded", function () {
+    const heroText = document.querySelector(".hero__text");
 
-  function updateHeroText() {
-    const offset = window.scrollY * 0.35;
-    heroText.style.transform = "translate(-50%, calc(-50% + " + offset + "px))";
-  }
+    function updateHeroText() {
+      const offset = window.scrollY * 0.35;
+      heroText.style.transform = "translateY(calc(-50% + " + offset + "px))";
+    }
 
-  window.addEventListener("scroll", updateHeroText, { passive: true });
-  updateHeroText();
+    window.addEventListener("scroll", updateHeroText, { passive: true });
+    updateHeroText();
+  });
 </script>
 </head>
 
 <body>
 <div class="hero">
-  <div class="hero__text" width="100vm" height="100vm">
+  <img class="hero__image" src="images/artboard.jpg" alt="">
+  <div class="hero__text">
     <h1 class="brand">IRIDIGARDEN</h1>
     <p class="catch">手作りフォントのぬくもりを、あなたの文字に。</p>
   </div>
